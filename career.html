@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>ghar banega easy career</title>
+    <script>
+        $('#cleardemo').filestyle({
+        buttonText : ' Choose a file from System',
+        buttonName : 'btn-info'
+        });
+        $('#clear').click(function() {
+        $('#cleardemo').filestyle('clear');
+        });
+        </script>
+        <style>
+            form{
+                padding-left: 1em;
+            }
+            h1{
+                text-align: center;
+                color: darkblue;
+            }
+        </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="index.html">👷</a></div>
+            <ul class="menu">
+                <li><a href="#services" class="menu-btn"  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-bs-trigger="hover">In Store Services</a></li>
+                <li><a href="#purchasing" class="menu-btn" >In store purchasing</a></li>
+                <li><a href="career.html" class="menu-btn">Career</a></li>
+                <li><a href="#emi" class="menu-btn" >Build on EMI</a></li>
+                <li><a href="#about us" class="menu-btn" >Why Us</a></li>
+                <i class="fa fa-shopping-cart" aria-hidden="true" style="padding-left: 2em;padding-right: 2em;"></i>
+                <i class="fa fa-search" aria-hidden="true"style="padding-left: 2em;padding-right: 2em;"></i>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1>
+            Career
+        </h1>
+        <div>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Job Profile(Required)</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Please dont apply for jobs not listed</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Email Address(Required)</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check" style="padding: 1em;">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Re-checked Email Address </label>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="form-label">Your Resume(Required)</label>
+                    <br>
+                    <input type="file" id="cleardemo">
+                </div>
+                    
+                <button type="submit" class="btn btn-primary" style="padding-left: 1em;">Submit</button>
+              </form>
+        </div>
+    </main>
+    
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+          <span class="text-muted">Created By Kunsh</span>
+        </div>
+      </footer>
+</body>
+
+</html>
