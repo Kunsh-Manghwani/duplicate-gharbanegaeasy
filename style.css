@@ -95,7 +95,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
@@ -850,4 +850,41 @@ footer span a:hover{
       text-emphasis: size;
       width: 280px;
       height:65px;
+      cursor: pointer;
   }
+
+  .in-store-btn:hover{
+    color: black;
+    background-color: white;
+  }
+
+  .bn-img{
+      width: 100%;
+      height: 35vh;
+  }
+
+  .in-store-btn-n{
+    color: white;
+    background-color: darkblue;
+    border-color: white;
+    text-emphasis: size;
+    width: 280px;
+    height:35px;
+    padding-top: 0.5em;
+    cursor: pointer;
+    border-radius: 2cm;
+}
+
+.in-store-btn-n:hover{
+  color: black;
+  background-color: white;
+}
+.card-n{
+    background:white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    width: 25vh;
+    height: 100vh;
+}
