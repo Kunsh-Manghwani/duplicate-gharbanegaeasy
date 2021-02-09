@@ -5,11 +5,11 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-/*
+
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
-}*/
+}
 
 function showSlides(n) {
   var i;
@@ -28,3 +28,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+$("document").ready(function(){
+  currentSlide(1);
+});
